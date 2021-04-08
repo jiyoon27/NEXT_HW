@@ -1,0 +1,227 @@
+.entirebox {
+  width: 375px;
+  height: 680px;
+  border: 1px solid;
+  border-radius: 7px;
+  color: gray;
+}
+
+.header {
+  height: 200px;
+}
+
+.top {
+  margin: 0px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top > p {
+  font-size: 20px;
+  color: black;
+}
+
+.arrow {
+  width: 30px;
+}
+.iu {
+  width: 110px;
+}
+.alarm {
+  width: 30px;
+}
+.dot3 {
+  width: 30px;
+}
+
+.pic_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.words {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  margin-top: 10px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.following {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.yellow {
+  height: 80px;
+  width: 80px;
+}
+
+.profile {
+  height: 50px;
+}
+
+.follows {
+  display: flex;
+  flex-direction: rows;
+  flex-wrap: wrap;
+}
+
+.writing1 {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: black;
+}
+
+.writing2 {
+  font-size: 15px;
+  width: 100%;
+  padding-left: 20px;
+  color: black;
+}
+
+.writing3 {
+  font-size: 15px;
+  width: 100%;
+  padding-left: 20px;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 10px;
+}
+
+.list {
+  border-radius: 2px;
+  width: 40%;
+  height: 20px;
+  border: 1px solid;
+  border-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 3px;
+  color: black;
+  font-size: 12px;
+}
+
+.message {
+  border-radius: 2px;
+  width: 40%;
+  height: 20px;
+  border: 1px solid;
+  border-color: gray;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 3px;
+  font-size: 12px;
+}
+
+.more {
+  margin: 0px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid;
+  border-color: gray;
+  color: black;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+
+.symbols > img {
+  height: 25px;
+  width: 25px;
+}
+
+.symbols {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.pictures1 > img {
+  height: 120px;
+  width: 120px;
+}
+
+.pictures2 > img {
+  height: 120px;
+  width: 120px;
+}
+
+.pictures3 > img {
+  height: 120px;
+  width: 120px;
+}
+
+.arrow_bottom {
+  margin: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.last {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.last > img {
+  height: 25px;
+  width: 25px;
+}

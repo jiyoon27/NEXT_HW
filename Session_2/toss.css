@@ -1,0 +1,175 @@
+.entire {
+  display: flex;
+}
+
+.left {
+  margin-top: 250px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.first {
+  margin-bottom: 30px;
+}
+
+.first > p {
+  margin: 0px;
+  font-size: 50px;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  color: rgb(77, 77, 77);
+  font
+}
+
+.second {
+  margin-bottom: 20px;
+}
+
+.second > p {
+  margin: 0px;
+  font-size: 13px;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  color: rgb(77, 77, 77);
+}
+
+.third > p {
+  margin: 0px;
+  font-size: 13px;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  color: rgb(68, 157, 230);
+}
+
+.right {
+  margin-top: 200px;
+  margin-left: 100px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pic1 {
+  height: 30px;
+  width: 30px;
+}
+
+.pic2 {
+  height: 30px;
+  width: 30px;
+}
+
+.pic3 {
+  height: 30px;
+  width: 30px;
+}
+
+.pic4 {
+  height: 30px;
+  width: 30px;
+}
+
+.pic5 {
+  height: 30px;
+  width: 30px;
+}
+
+.kb {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0,33,0.09);
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shinhan {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0,33,0.09);
+}
+
+.hana {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0,33,0.09);
+}
+
+.oori {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0,33,0.09);
+}
+
+.nh {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0,33,0.09);
+}

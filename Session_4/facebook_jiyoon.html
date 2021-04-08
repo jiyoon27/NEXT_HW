@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/facebook.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>facebook_jiyoon</title>
+            
+        <link href="./facebook_jiyoon_files/facebook.css" rel="stylesheet"></head>
+
+        <body>
+            <div class="entire">
+                <div class="header">
+                    <div class="logo">
+                        <p><strong>facebook</strong></p>
+                        <div class="two_icons">
+                            <div class="packed_search">
+                                <img src="./facebook_jiyoon_files/search.png" class="search">
+                            </div>
+                            <div class="packed_chat">
+                                <img src="./facebook_jiyoon_files/chat.png" class="chat">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo_under">
+                        <img src="./facebook_jiyoon_files/profile_image.jpeg" class="profile_image">
+                        <p>무슨 생각을 하고 계신가요?</p>
+                    </div>
+                    <div class="logo_under_2">
+                        <div class="camera">
+                            <img src="./facebook_jiyoon_files/video_camera.png">
+                            <p>라이브</p>
+                        </div>
+                        <div class="picture">
+                            <img src="./facebook_jiyoon_files/picture.png">
+                            <p>사진</p>
+                        </div>
+                        <div class="checkin">
+                            <img src="./facebook_jiyoon_files/location.png">
+                            <p>체크인</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="story">
+                    <div class="story_1">
+                        <img src="./facebook_jiyoon_files/profile_image.jpeg">
+                        <p>스토리 만들기</p>
+                    </div>
+                    <div class="story_2">
+
+                    </div>
+                    <div class="story_3">
+
+                    </div>
+                    <div class="story_4">
+
+                    </div>
+                    <div class="story_5">
+
+                    </div>
+                </div>
+                <div class="page_1">
+
+                </div>
+                <div class="page_2">
+
+                </div>
+                <div class="last">
+
+                </div>
+        
+            </div>
+        <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    </body></html>
