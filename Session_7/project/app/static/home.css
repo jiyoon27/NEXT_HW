@@ -1,0 +1,71 @@
+.entire {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(228, 228, 228);
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Aurelie Smith DEMO;
+  font-size: 30px;
+}
+
+/* .box {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+} */
+
+/* li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+} */
+
+ul {
+  height: 200px;
+  width: 180px;
+  list-style: none;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 40px;
+  /* align-items: center; */
+  /* padding-left: 40px; */
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 20px;
+}
+
+.bottom {
+  padding-left: 200px;
+}
+
+.bottom > a {
+  font-family: Malgun "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
