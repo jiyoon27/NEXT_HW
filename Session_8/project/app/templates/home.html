@@ -1,0 +1,25 @@
+
+{% extends 'base.html' %}
+{% block css %} {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'home.css'%}"/>
+{% endblock %}
+
+{% block memo %}
+            <div class="title">
+                <h1>To do list</h1>
+            </div>
+            <div class="list_box">
+                <ul class="list">
+                    {% for post in posts %}
+                    <div class="line">
+                        <div class="box"></div><li class="phrase">
+                            <a href="{% url 'detail' post.pk %}">{{ post.title }}</a>
+                        </li>
+                    </div>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="add">
+                <a href="{% url 'new' %}">add list</a>
+            </div>
+{% endblock %}

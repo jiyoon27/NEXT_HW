@@ -1,0 +1,122 @@
+.entire {
+  height: 620px;
+  width: 350px;
+  border: black solid 5px;
+  border-radius: 40px;
+  margin-left: 35%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(186, 155, 166);
+  z-index: 0;
+}
+
+.phone_top {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.middle {
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.microphone {
+  height: 8px;
+  width: 40px;
+  background-color: rgb(43, 43, 43);
+  border-radius: 20px;
+  margin-top: 30px;
+  margin: 0px;
+}
+
+.battery > img {
+  width: 18px;
+  height: 18px;
+}
+
+.connect > img {
+  width: 23px;
+  height: 13px;
+}
+
+.time {
+  width: 60px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-right: 15px;
+}
+
+.wifi > p {
+  padding-right: 5px;
+}
+
+.nav {
+    position: absolute;
+    top: 150px;
+}
+
+.memo > a {
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+    font-family: Aurelie Smith DEMO;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+
+.bottom {
+  height: 70px;
+  width: 90%;
+  background-color: rgb(216, 216, 216);
+  border-radius: 25px;
+  margin-top: 60px;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call > img {
+  height: 55px;
+  width: 55px;
+}
+
+.message > img {
+  height: 53px;
+  width: 57px;
+}
+
+.kakao > img {
+  height: 53px;
+  width: 57px;
+}
+
+.safari > img {
+  height: 53px;
+  width: 53px;
+}

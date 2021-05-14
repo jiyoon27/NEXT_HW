@@ -1,0 +1,33 @@
+
+{% extends 'base.html' %}
+{% block css %} {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'detail.css'%}"/>
+{% endblock %}
+
+{% block memo %}
+            <!-- <a href="{% url 'home' %}" class="home">< home</a> -->
+            <div class="main">
+                <div class="title">
+                    <p>{{ post.title }}</p>
+                </div>
+                <div class="content">
+                    <p>{{ post.content }}</p>
+                </div>
+                <div class="rewrite">
+                    <a href="{% url 'edit' post.pk %}">edit</a>
+                    <a href="{% url 'delete' post.pk %}">delete</a>
+                </div>
+            </div>
+            <div class="comment_list">
+                {% for comment in post.comments.all %}
+                    <li class="list"><p>ㄴ</p>{{ comment.content }}
+                        <a href="{% url 'delete_comment' post.pk comment.pk %}" class="remove">삭제</a>
+                    </li>
+                    {% endfor %}
+            </div>
+            <form method="POST" class="comment">
+                {% csrf_token %}
+                <input type="text" name="content" placeholder="댓글을 입력해주세요">
+                <button type="submit">댓글</button>
+            </form>
+{% endblock %}

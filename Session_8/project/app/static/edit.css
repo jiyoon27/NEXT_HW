@@ -1,0 +1,64 @@
+
+
+p {
+  margin: 0px;
+  font-size: 13px;
+  color: white;
+}
+
+
+
+.memo {
+  height: 350px;
+  width: 250px;
+  z-index: 2;
+  background-color: white;
+  margin-top: 90px;
+}
+
+
+
+.title {
+  font-family: Aurelie Smith DEMO;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.title > input {
+  border: 0px;
+  background-color: rgb(244, 243, 228);
+}
+
+.content {
+  font-family: Aurelie Smith DEMO;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.content > textarea {
+  border: 0px;
+  background-color: rgb(244, 243, 228);
+}
+
+.submit {
+  padding-top: 5px;
+  padding-left: 180px;
+  border: 0px;
+}
+
+button {
+  /* font-family: Aurelie Smith DEMO; */
+  /* font-size: 30px; */
+  border: 0px;
+  border-radius: 10px;
+  width: 50px;
+  height: 20px;
+  padding: 0px;
+}
+

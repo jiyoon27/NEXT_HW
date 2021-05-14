@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+    {% block css %}
+
+    {% endblock css %}
+    <title>Document</title>
+</head>
+
+<body>
+    <div class = "entire">
+        <div class="phone_top">
+            <div class="time">
+                <p>03:27</p>
+            </div>
+            <div class="middle">
+                <div class="microphone">
+                </div>
+            </div>
+            <div class="right">
+                <div class="connect">
+                    <img src="{% static 'connection.png' %}">
+                </div>
+                <div class="wifi">
+                    <p>LTE</p>
+                </div>
+                <div class="battery">
+                    <img src="{% static 'smartphone-charger.png' %}" class="charger">
+                </div>
+            </div>
+        </div>
+        <div class="memo">
+            <a href="{% url 'home' %}" class="home">home</a>
+            <a href="{% url 'new' %}" class="new">new</a>
+            {% block memo %}
+
+            {% endblock memo %}
+        </div>
+        <div class="bottom">
+            <div class="call">
+                <img src="{% static 'phone3.png' %}">
+            </div>
+            <div class="message">
+                <img src="{% static 'message2.png' %}">
+            </div>
+            <div class="kakao">
+                <img src="{% static 'kakao.png' %}">
+            </div>
+            <div class="safari">
+                <img src="{% static 'safari.png' %}">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
