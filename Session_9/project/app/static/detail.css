@@ -1,0 +1,120 @@
+
+.main {
+  /* height: 70px; */
+  /* background-color: rgb(196, 196, 196); */
+  /* border-top: 3px solid rgb(196, 196, 196); */
+  border-bottom: 3px solid rgb(196, 196, 196);
+}
+
+p {
+  margin: 0px;
+  font-size: 13px;
+  color: white;
+}
+
+/* .memo > a {
+  text-decoration: none;
+  color: rgb(106, 106, 106);
+  font-family: Aurelie Smith DEMO;
+  font-size: 30px;
+  margin-left: 15px;
+} */
+
+.memo {
+  height: 350px;
+  width: 250px;
+  z-index: 2;
+  background-color: white;
+  margin-top: 90px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title > p {
+  font-size: 30px;
+  font-family: Y 너만을 비춤체OTF;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.content {
+  height: 80px;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(210, 210, 210); */
+  margin-left: 10px;
+  /* border: rgb(43, 43, 43) 2px solid; */
+  border-radius: 20px;
+}
+
+.content > p {
+  font-size: 15px;
+  font-family: Y 너만을 비춤체OTF;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.rewrite {
+  display: flex;
+  flex-direction: row;
+  margin-left: 160px;
+}
+
+.rewrite > a {
+  text-decoration: none;
+  color: black;
+  font-family: Aurelie Smith DEMO;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.comment_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.list > p {
+  color: black;
+  font-size: 10px;
+}
+
+.list {
+  list-style: none;
+  padding-top: 5px;
+  font-size: 10px;
+  font-family: Y 너만을 비춤체OTF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+}
+
+.list > a {
+  color: rgb(153, 174, 177);
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+}
+
+.remove > a {
+  color: black;
+}
+
+.battery > img {
+  width: 18px;
+  height: 18px;
+}
+

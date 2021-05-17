@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static %}
+    {% load socialaccount %}
+    {% providers_media_js %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+    {% block css %}
+
+    {% endblock css %}
+    <title>Document</title>
+</head>
+
+<body>
+    <div class = "entire">
+        <div class="phone_top">
+            <div class="time">
+                <p>03:27</p>
+            </div>
+            <div class="middle">
+                <div class="microphone">
+                </div>
+            </div>
+            <div class="right">
+                <div class="connect">
+                    <img src="{% static 'connection.png' %}">
+                </div>
+                <div class="wifi">
+                    <p>LTE</p>
+                </div>
+                <div class="battery">
+                    <img src="{% static 'smartphone-charger.png' %}" class="charger">
+                </div>
+            </div>
+        </div>
+        <div class="memo">
+            <a href="{% url 'home' %}" class="home">HOME</a>
+            {% if user.is_authenticated %}
+            <a>안녕하세요, {{ user.username }}님</a>
+            <a href="{% url 'logout' %}" class="logout">LOG OUT</a>
+            {% else %}
+            <a href="{% url 'login' %}" class="login">LOG IN</a>
+            <a class="kakao" href="{% provider_login_url 'kakao' %}">KAKAO LOG IN</a>
+            <a href="{% url 'signup' %}" class="signup">SIGN UP</a>
+            {% endif %}
+            
+            {% block memo %}
+
+            {% endblock memo %}
+        </div>
+        <div class="bottom">
+            <div class="call">
+                <img src="{% static 'phone3.png' %}">
+            </div>
+            <div class="message">
+                <img src="{% static 'message2.png' %}">
+            </div>
+            <div class="kakao">
+                <img src="{% static 'kakao.png' %}">
+            </div>
+            <div class="safari">
+                <img src="{% static 'safari.png' %}">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
