@@ -1,0 +1,25 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+input {
+background-color: rgb(230, 230, 230);
+border: 0px;
+border-radius: 5px;
+height: 20px;
+margin-top: 10px;
+margin-left: 30px;
+}
+
+.box {
+  margin-top: 50px;
+}
+
+button {
+border: 0px;
+background-color: rgb(242, 241, 212);
+border-radius: 10px;
+}

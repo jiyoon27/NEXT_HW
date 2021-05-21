@@ -26,6 +26,21 @@ p {
   border-bottom: 2px black solid;
 }
 
+.title2 {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.title2 > h1 {
+  font-family: Aurelie Smith DEMO;
+  font-size: 50px;
+  margin: 0px;
+  padding-top: 20px;
+  border-bottom: 2px black solid;
+
+}
+
 .list {
   list-style: none;
   height: 180px;

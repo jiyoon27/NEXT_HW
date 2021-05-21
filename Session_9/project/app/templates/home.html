@@ -4,7 +4,9 @@
 <link rel="stylesheet" type="text/css" href="{% static 'home.css'%}"/>
 {% endblock %}
 
+
 {% block memo %}
+{% if user.is_authenticated %}
             <div class="title">
                 <h1>To do list</h1>
             </div>
@@ -22,4 +24,12 @@
             <div class="add">
                 <a href="{% url 'new' %}">add list</a>
             </div>
-{% endblock %}
+{% else %}
+            <div class="title2">
+                <h1>
+                    To do list
+                </h1>
+            </div>
+
+{% endif %}
+{% endblock memo %}

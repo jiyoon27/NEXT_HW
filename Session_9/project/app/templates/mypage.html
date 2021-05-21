@@ -1,0 +1,28 @@
+
+{% extends 'base.html' %}
+{% block css %} {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'mypage.css'%}"/>
+{% endblock %}
+
+{% block memo %}
+            <div class="my_posts"><p>My Posts</p>
+                <ul>
+                        {% for my_post in my_posts %}
+                        <li>
+                            <a href="{% url 'detail' my_post.pk %}">{{ my_post.title }}</a>
+                        </li>
+                        {% endfor %}
+                </ul>
+            </div>
+            <div class="my_comments"><p>My Comments</p>
+                <ul>
+                    {% for my_comment in my_comments %}
+                    <li>
+                        <a href="{% url 'detail' my_comment.post.pk %}">{{ my_comment.content }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+{% endblock memo %}
+
+

@@ -16,7 +16,7 @@ def new(request):
             title = request.POST['title'],
             content = request.POST['content'],
             author = request.user
-    )
+        )
         return redirect('detail', new_post.pk)
     return render(request, 'new.html')
 
@@ -62,11 +62,11 @@ def signup(request):
             return render(request, 'registration/signup.html', {
                 'error' : error
             })
-        new_user = User.objects.create(
+        new_user = User.objects.create_user(
             username = request.POST['username'],
             password = request.POST['password']
         )
-        auth.login(request, new_user)
+        auth.login(request, new_user, backend="django.contrib.auth.backends.ModelBackend")
         return redirect('home')
     return render(request, 'registration/signup.html')
 
@@ -88,3 +88,8 @@ def login(request):
 def logout(request):
     auth.logout(request)
     return redirect('home')
+
+def mypage(request):
+    my_posts = Post.objects.filter(author = request.user)
+    my_comments = Comment.objects.filter(author = request.user)
+    return render(request, 'mypage.html', {'my_posts' : my_posts, 'my_comments' : my_comments})

@@ -98,12 +98,12 @@ p {
     text-decoration: none;
     color: rgb(106, 106, 106);
     font-family: Aurelie Smith DEMO;
-    font-size: 14px;
-    margin-left: 15px;
+    font-size: 13px;
+    margin-left: 6px;
   }
 
 .memo > .kakao {
-  color: rgb(237, 220, 38);
+  color: rgb(189, 177, 44);
 }
 
 .bottom {
